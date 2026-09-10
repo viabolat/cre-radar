@@ -4,6 +4,9 @@ data/evidence/*
 !data/evidence/_permits/
 # ...but keep the shared source permit reports (small, cited by every signal row)
 !data/evidence/_permits/**
+# ...and the shared registry / SOC diligence workbook (small, cited by every registry + entity row)
+!data/evidence/_registry/
+!data/evidence/_registry/**
 
 # The CSVs are this repo's payload — override the global *.csv ignore
 !data/leads.csv

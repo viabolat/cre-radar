@@ -41,7 +41,7 @@ Dates are ISO `YYYY-MM-DD`. Leave a cell empty only where the column notes allow
 | `dollar_amount` | no | integer USD | Permit valuation or lien amount if stated. |
 | `summary` | yes | free text, 1–2 sentences | Factual paraphrase of the record only. No inference about intent beyond what the document says. |
 | `evidence_file` | yes | path under `data/evidence/<lead_id>/`, or a shared file under `data/evidence/_permits/` | Screenshot or downloaded PDF. Must exist and open. A single permit-report PDF that covers many leads lives once under `_permits/` and is cited by page number in `summary`. |
-| `confidence` | yes | `high` \| `med` \| `low` | `high` = document is explicit and current; `low` = ambiguous or stale. |
+| `confidence` | yes | `high` \| `med` \| `low` | `high` = document is explicit and current; `low` = ambiguous or stale. A registry hit known only from the index (image not yet pulled) caps at `med`. |
 
 ### `signal_type` values
 - `permit-fitout` — general tenant fit-out
@@ -51,11 +51,17 @@ Dates are ISO `YYYY-MM-DD`. Leave a cell empty only where the column notes allow
 - `permit-tenant-demo` — tenant demolition / white-boxing / data-center or fit-out strip-out (space give-back)
 - `permit-demolition` — full building demolition (redevelopment / land-assembly signal)
 - `permit-withdrawn` — permit filed then withdrawn/abandoned (distress)
-- `tax-lien` — municipal, state, or federal tax lien
+- `tax-lien` — municipal, state, or federal tax lien showing an unpaid balance (a bare
+  Certificate of Municipal Lien ordered at a closing is NOT this — record that in lead notes)
 - `lis-pendens` — pending litigation / foreclosure notice
 - `notice-of-lease` — recorded lease (exposes tenant / expiry)
 - `lease-amendment`
-- `mortgage-modification` — landlord renegotiated with lender
+- `mortgage-modification` — landlord renegotiated with an existing lender
+- `new-mortgage` — landlord recorded new senior financing (refinance or acquisition loan);
+  a same-week discharge of the prior mortgage = refinance
+- `ownership-transfer` — deed / confirmatory deed changing the record owner (transaction intent)
+- `financing-agreement` — a recorded AGREEMENT naming a lender alongside owner/tenant
+  (possible SNDA / estoppel / loan instrument); nature unconfirmed until the image is pulled
 
 ---
 
