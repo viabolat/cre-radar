@@ -100,12 +100,12 @@ the Waltham systems in this phase — several prohibit automated access in their
 automation is a separate plan with a terms-of-use review first.
 
 ## Access status (2026-09-10)
-- **masslandrecords.com** and **corp.sec.state.ma.us** both return a Secretary of the
+- **masslandrecords.com** and **corp.sec.state.ma.us** return a Secretary of the
   Commonwealth IT Division block page ("IP address flagged as a potential security risk")
-  from the Claude-for-Chrome session's connection and from the CLI's WebFetch. Persisted on
-  retry. Not a CAPTCHA — a network/IP-reputation block. Steps 3 and 5 are on hold until
-  those portals are reachable from a clean network (no VPN, residential IP, or a different
-  machine), done by a human.
+  from a default connection and from CLI WebFetch. Not a CAPTCHA — a network/IP-reputation
+  block. **Fix: run a VPN with a Boston exit node**, then drive the portals in a browser
+  (Claude for Chrome). CLI WebFetch cannot use that VPN, so steps 3 and 5 stay a browser
+  task done by a human.
 - Parcel facts (step 1) came from the MassGIS Property Tax Parcels FeatureServer; permit
   signals (step 2) from the City of Waltham Q1-2026 permit report PDF. Both still reachable.
 - **SEC EDGAR full-text search** (efts.sec.gov) is open and is a partial substitute for
