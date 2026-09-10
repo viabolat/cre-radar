@@ -149,12 +149,14 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Zoning Designation:** COMMERCIAL
 - **Lot Size:** 2.05 acres (plus the contiguous companion parcel)
 - **Identified Intent Trigger:** Two building-demolition permits filed the same day,
-  2026-03-25 — P202641379 and P202641378, each valued at $36,000. Middlesex South shows the
-  site conveyed 2025-12-31 by confirmatory deed (bk85075/539) from family trusts to the
-  current owner, followed by a blanket portfolio mortgage from Ally Bank recorded 2026-02-06
-  (bk85206/84 — also encumbering the adjoining Bear Hill parcel and a Main Street property),
-  with the prior lender's mortgage discharged three days later. New ownership, portfolio-level
-  financing, and simultaneous demolition of both buildings on the assembled parcels.
+  2026-03-25 — P202641379 and P202641378, each valued at $36,000 — to raze both buildings on
+  the site. Middlesex South records a multi-parcel assembly by the current owner: the lead
+  parcel, with an adjoining Second Avenue lot, was acquired 2023-05-15 for $6,900,000 by
+  quitclaim deed (bk81531/447) in an estate disposition; the contiguous parcel was added
+  2025-12-31 by confirmatory deed (bk85075/539) from a second family trust. A blanket
+  portfolio mortgage from Ally Bank recorded 2026-02-06 (bk85206/84 — also encumbering the
+  added parcel and a Main Street property) refinanced the prior debt, discharged three days
+  later. Assembly complete, portfolio financing in place, both buildings now being cleared.
 - **Signal Recency:** most recent trigger dated 2026-03-25
 - **Actionability Window:** hypothesis — near-term JV capital, forward-purchase, or land sale
   as the site moves from assembly to entitlement.
@@ -235,20 +237,17 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   FeatureServer (layer 0), queried by parcel ID.
 - Recorded leases and financing, and all owner-entity data: the Claude-for-Chrome diligence
   run, `data/evidence/_registry/waltham-middlesex-south-soc-diligence-2026-09-10.xlsx`, plus a
-  follow-up registry Name Search resolving the WAL-008 trust chain of title (book/page cites
-  in `data/leads.csv` and `data/entities.csv`).
+  follow-up registry Name Search resolving the WAL-008 trust chain of title and a pulled deed
+  image for the WAL-007 2023 acquisition (`waltham-wal007-deed-2023-bk81531-447.pdf`).
 - **Hard limitation — not a follow-up task:**
-  1. Middlesex South document images cannot be retrieved remotely. The registry's image viewer
-     fails to render under remote/automated access — independently confirmed across two
-     sessions (every request returns 200 OK but no image; the popup-viewer toggle resets the
-     search). Lease terms/expiry and mortgage amounts for WAL-002, WAL-004, WAL-006, WAL-007
-     and WAL-009 remain unconfirmed; book/page is recorded for each. The only route to those
-     figures is a records request to the Middlesex South Registry by mail, phone, or in person
-     (printing and download are free) — further scripted attempts are wasted effort.
+  1. Middlesex South document images generally cannot be retrieved remotely — the registry's
+     image viewer fails to render under remote/automated access (confirmed across two sessions;
+     the popup-viewer toggle resets the search). Individual images can still be obtained one at
+     a time via a records request (mail/phone/in person; printing and download are free). Lease
+     terms/expiry (WAL-002, WAL-004) and mortgage amounts (WAL-006, WAL-007 Ally, WAL-009
+     Beacon) remain unconfirmed; book/page is recorded for each.
 - **Open items:**
-  2. WAL-007 — MassGIS shows a 2023 sale that the registry run did not surface under the
-     lead address; reconcile against the deed record.
-  3. Six `TBD` zoning designations to confirm against the Waltham zoning map.
-  4. LinkedIn cross-reference of the named managers (business capacity) not yet done.
-  5. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
+  2. Six `TBD` zoning designations to confirm against the Waltham zoning map.
+  3. LinkedIn cross-reference of the named managers (business capacity) not yet done.
+  4. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
      chain added) is being regenerated in the Cowork thread; swap it in when ready.
