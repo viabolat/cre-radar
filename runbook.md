@@ -98,3 +98,17 @@ then run the outreach in `templates/outreach-message.md` and log every touch in
 Manual browsing only. Do not script requests against masslandrecords.com, the SOC portal, or
 the Waltham systems in this phase — several prohibit automated access in their terms. Any
 automation is a separate plan with a terms-of-use review first.
+
+## Access status (2026-09-10)
+- **masslandrecords.com** and **corp.sec.state.ma.us** both return a Secretary of the
+  Commonwealth IT Division block page ("IP address flagged as a potential security risk")
+  from the Claude-for-Chrome session's connection and from the CLI's WebFetch. Persisted on
+  retry. Not a CAPTCHA — a network/IP-reputation block. Steps 3 and 5 are on hold until
+  those portals are reachable from a clean network (no VPN, residential IP, or a different
+  machine), done by a human.
+- Parcel facts (step 1) came from the MassGIS Property Tax Parcels FeatureServer; permit
+  signals (step 2) from the City of Waltham Q1-2026 permit report PDF. Both still reachable.
+- **SEC EDGAR full-text search** (efts.sec.gov) is open and is a partial substitute for
+  step 3 on assets with public-company tenants: e.g. "275 Wyman LLC" appears as the named
+  landlord in SEC-filed leases by Pegasystems (2021), Chiasma (2017), and Altus Pharma
+  (2007, 2009) — a notice-of-lease equivalent for WAL-003.
