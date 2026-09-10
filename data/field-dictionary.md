@@ -92,6 +92,14 @@ picture is not lost. Columns marked "SOC step" stay blank and `notes` must say
 `SOC + Annual Report lookup pending (browser)`. A lead cannot reach `entity-resolved` /
 `index-ready` until those columns are filled.
 
+### Trust owners
+A MA nominee / realty trust does not register with the Secretary of the Commonwealth, so
+`soc_entity_id` and `domestic_state` stay blank by nature (note it in `notes`, don't flag it as
+missing). Resolve the trustee with a registry **Name Search** (not Property Search) for the
+Declaration of Trust and any later trustee-appointment instruments; record the current trustee
+in `managers` and put the most recent trustee instrument's date and URL in the
+`annual_report_date` / `annual_report_url` columns.
+
 ### Handling personal information
 Manager data is recorded in business capacity only. Include a residential address **only** if
 the public Annual Report itself prints one, and never carry it into the blinded index or any

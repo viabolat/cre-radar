@@ -112,3 +112,13 @@ automation is a separate plan with a terms-of-use review first.
   step 3 on assets with public-company tenants: e.g. "275 Wyman LLC" appears as the named
   landlord in SEC-filed leases by Pegasystems (2021), Chiasma (2017), and Altus Pharma
   (2007, 2009) — a notice-of-lease equivalent for WAL-003.
+- **Registry document images are a dead end even with the VPN.** The masslandrecords.com
+  image viewer returns 200 OK but never renders under remote/automated access (confirmed
+  across two Chrome sessions; the popup-viewer toggle resets the search). The registry index
+  gives book/page, doc number, party names, and page count — enough for a signal row — but
+  **not** dollar amounts or lease terms. To get those: a records request to the Middlesex
+  South Registry by mail / phone / in person (print + download are free). Do not spend more
+  time on the viewer.
+- SOC CorpSearch finds LLCs and corporations only. A **nominee/realty trust** owner (e.g.
+  WAL-008, "Zee Em Trust II") has no SOC record by design — resolve the trustee with a
+  registry **Name Search** for the Declaration of Trust + later trustee instruments.

@@ -1,10 +1,10 @@
 # GREATER BOSTON COMMERCIAL INTENT INDEX
 ## Submarket: Route 128 — Waltham node (Industrial & Flex)
 
-Status: **9 of 10 assets index-ready.** Permit intent-signals and asset facts are verified
+Status: **10 of 10 assets index-ready.** Permit intent-signals and asset facts are verified
 against source records; owner entities are resolved at the MA Secretary of the Commonwealth
-(managers, principal office, most recent Annual Report on file). One additional asset
-(500 Totten Pond Rd) is held back pending resolution of a nominee-trust owner.
+(managers, principal office, most recent Annual Report on file), or — for the one trust-held
+asset — at the Registry of Deeds via the recorded Declaration of Trust and trustee instruments.
 
 Owner entity and decision-maker rows are withheld pending a syndicated data license. Every
 other field — address-blinded asset facts, the permit or registry trigger, dates — is
@@ -163,6 +163,29 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 
 ---
 
+### INDEX ENTRY: BOS-128-WAL-008
+
+- **Asset Categorization:** Flex / Suburban Office (large multi-floor, single dominant tenant)
+- **Submarket Geography:** Route 128 Corridor — Waltham node (Totten Pond Road frontage)
+- **Calculated Footprint:** ~470,166 SQFT (MassGIS `BLD_AREA`); 2015 construction
+- **Zoning Designation:** LIM COMM
+- **Lot Size:** 8.23 acres
+- **Identified Intent Trigger:** Waltham building permit P202641140, filed 2026-01-16, for a
+  six-floor tenant fit-out — the sitting tenant (Group 1001 / Delaware Life) expanding:
+  demolition and reconstruction of partitions and rework of MEP and fire-alarm systems across
+  six floors — valuation $401,465. A six-floor build-out by an existing tenant signals a major
+  lease extension or enlargement. The asset is held in a long-standing private trust
+  (Declaration of Trust recorded 1997; most recent trustee succession 2019); no recorded
+  leases or financing in the trailing-18-month registry window.
+- **Signal Recency:** most recent trigger dated 2026-01-16
+- **Actionability Window:** hypothesis — a long-held trust asset with a freshly enlarged anchor
+  tenancy; trustee-succession ownership of this vintage can precede an estate- or
+  liquidity-driven disposition on the strengthened rent roll.
+- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
+- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
+
+---
+
 ### INDEX ENTRY: BOS-128-WAL-009
 
 - **Asset Categorization:** Low-Rise Flex / R&D (single-tenant)
@@ -211,14 +234,21 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - Footprints, lot sizes, zoning codes, prior-sale book/pages: MassGIS Property Tax Parcels
   FeatureServer (layer 0), queried by parcel ID.
 - Recorded leases and financing, and all owner-entity data: the Claude-for-Chrome diligence
-  run, `data/evidence/_registry/waltham-middlesex-south-soc-diligence-2026-09-10.xlsx`.
+  run, `data/evidence/_registry/waltham-middlesex-south-soc-diligence-2026-09-10.xlsx`, plus a
+  follow-up registry Name Search resolving the WAL-008 trust chain of title (book/page cites
+  in `data/leads.csv` and `data/entities.csv`).
+- **Hard limitation — not a follow-up task:**
+  1. Middlesex South document images cannot be retrieved remotely. The registry's image viewer
+     fails to render under remote/automated access — independently confirmed across two
+     sessions (every request returns 200 OK but no image; the popup-viewer toggle resets the
+     search). Lease terms/expiry and mortgage amounts for WAL-002, WAL-004, WAL-006, WAL-007
+     and WAL-009 remain unconfirmed; book/page is recorded for each. The only route to those
+     figures is a records request to the Middlesex South Registry by mail, phone, or in person
+     (printing and download are free) — further scripted attempts are wasted effort.
 - **Open items:**
-  1. Registry document images were not pulled — lease terms/expiry and mortgage amounts are
-     not yet confirmed. Book/page is recorded for each; pull before quoting any figure.
-  2. WAL-008 (500 Totten Pond Rd) — owner is "Zee Em Trust 11", no SOC record; needs a
-     registry Name Search for the declaration of trust to name the trustee. Then it becomes
-     the 10th entry.
-  3. WAL-007 — MassGIS shows a 2023 sale that the registry run did not surface under the
-     lead address; reconcile against the deed images.
-  4. Six `TBD` zoning designations to confirm against the Waltham zoning map.
-  5. LinkedIn cross-reference of the named managers (business capacity) not yet done.
+  2. WAL-007 — MassGIS shows a 2023 sale that the registry run did not surface under the
+     lead address; reconcile against the deed record.
+  3. Six `TBD` zoning designations to confirm against the Waltham zoning map.
+  4. LinkedIn cross-reference of the named managers (business capacity) not yet done.
+  5. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
+     chain added) is being regenerated in the Cowork thread; swap it in when ready.
