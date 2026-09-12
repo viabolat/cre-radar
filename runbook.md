@@ -89,13 +89,28 @@ Wyman St, Bear Hill Rd, Seyon St, Rumford Ave, Prospect St, Clematis Ave, Rear C
    Save the PDF → `data/evidence/<lead_id>/annual-report.pdf`.
 4. Cross-reference the lead manager on LinkedIn (business capacity): `linkedin_url`,
    `linkedin_title`. Skip if no confident match — do not guess.
+5. Note plainly, in `entities.csv` `notes`, whether the resolved owner reads as a large
+   institutional operator / REIT / public-agency-adjacent lessee arrangement, versus a small
+   private/family entity. This isn't a qualification gate — it doesn't block advancement — it
+   just keeps the hypothesis text in the blinded index honest instead of framing routine
+   institutional-owner activity (a fit-out, a lease-up) as a distress or disposition signal.
 
 ### 6. Mark `index-ready`
-Set `leads.status = index-ready` once steps 1–5 are complete and every evidence file opens.
+1. Negative check: search `site_address` + `"for sale OR for lease"`, spot-check LoopNet/Crexi
+   if accessible. Applies only to a listing for the whole asset or a clear sale process — not
+   ordinary partial-space leasing inside an occupied multi-tenant building (normal for campuses
+   like WAL-002 through WAL-005). If the asset is already an active, publicly known opportunity,
+   note it in `leads.csv` and pull the lead from the index rather than pitching it as proprietary.
+2. Set `leads.status = index-ready` once steps 1–5 are complete, every evidence file opens, and
+   the negative check is clear.
 
 ---
 
 ## When 10 are `index-ready`
+Before assembling, confirm each lead's most recent trigger date is still current — a quick check
+against the same sources already used, not a full loop re-run. A stale trigger doesn't disqualify
+a lead but should be noted, and if something more recent has happened, incorporated.
+
 Assemble `deliverables/blinded-index-BOS-128.md` (see `templates/blinded-index-entry.md`),
 then run the outreach in `templates/outreach-message.md` and log every touch in
 `outreach/tracker.csv`.

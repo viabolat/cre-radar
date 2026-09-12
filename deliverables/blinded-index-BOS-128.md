@@ -1,7 +1,8 @@
 # GREATER BOSTON COMMERCIAL INTENT INDEX
 ## Submarket: Route 128 — Waltham node (Industrial & Flex)
 
-Status: **10 of 10 assets index-ready.** Permit intent-signals and asset facts are verified
+Status: **6 of 10 assets index-ready** (BOS-128-WAL-002, -004, -005, -009 pulled 2026-09-12 — see
+`data/leads.csv` and the Verification notes below). Permit intent-signals and asset facts are verified
 against source records; owner entities are resolved at the MA Secretary of the Commonwealth
 (managers, principal office, most recent Annual Report on file), or — for the one trust-held
 asset — at the Registry of Deeds via the recorded Declaration of Trust and trustee instruments.
@@ -36,27 +37,6 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 
 ---
 
-### INDEX ENTRY: BOS-128-WAL-002
-
-- **Asset Categorization:** Flex / Suburban R&D Facility (large multi-tenant office/lab)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (Third Avenue frontage)
-- **Calculated Footprint:** ~439,695 SQFT (MassGIS `BLD_AREA`)
-- **Zoning Designation:** TBD (confirm against Waltham zoning map)
-- **Lot Size:** 6.40 acres
-- **Identified Intent Trigger:** Waltham building permit P202641351, filed 2026-03-20, for a
-  commercial lab renovation on levels 2 and 3, valuation $4,736,195; plus permit P202641385,
-  filed 2026-03-26, for a pop-up clean room in Suite 500. Two notices of lease recorded at
-  Middlesex South in the trailing 12 months — Madrigal Pharmaceuticals (bk85023/94, recorded
-  2025-12-17) and Akebia Therapeutics (bk85385/516, recorded 2026-03-26); the Akebia lease
-  aligns with the level 2–3 permit.
-- **Signal Recency:** most recent trigger dated 2026-03-26
-- **Actionability Window:** hypothesis — multi-tenant lab lease-up largely complete; a
-  recapitalization candidate on the strengthened rent roll.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
 ### INDEX ENTRY: BOS-128-WAL-003
 
 - **Asset Categorization:** Flex / Suburban R&D Facility (campus building, phased fit-out)
@@ -72,47 +52,6 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Signal Recency:** most recent trigger dated 2026-02-27
 - **Actionability Window:** hypothesis — phased multi-tenant lease-up in progress; a landlord
   potentially open to a partial-interest or recapitalization conversation.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
-### INDEX ENTRY: BOS-128-WAL-004
-
-- **Asset Categorization:** Flex / Suburban R&D Facility (large campus, mixed re-tenanting)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (Trapelo Road frontage)
-- **Calculated Footprint:** not yet published in assessor CAMA
-- **Zoning Designation:** LIM COMM
-- **Lot Size:** 33.53 acres
-- **Identified Intent Trigger:** Waltham building permit P202641400, filed 2026-03-27, to
-  renovate part of level 2 (Suite 250) into an ambulatory surgery center, valuation
-  $12,894,281; and permit P202641084, filed 2026-01-02, to demolish first-floor systems back
-  to white-box, valuation $228,443. Two notices of lease recorded at Middlesex South —
-  Atrius MSO LLC (bk84922/413, recorded 2025-11-25, aligns with the surgery-center permit)
-  and Boston Dynamics Inc (bk85811/491, recorded 2026-06-30).
-- **Signal Recency:** most recent trigger dated 2026-06-30
-- **Actionability Window:** hypothesis — active re-tenanting adding two credit tenants;
-  a value-add asset nearing stabilization.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
-### INDEX ENTRY: BOS-128-WAL-005
-
-- **Asset Categorization:** Flex / Suburban R&D Facility (office being repositioned to lab)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (West Street frontage)
-- **Calculated Footprint:** ~269,692 SQFT (MassGIS `BLD_AREA`)
-- **Zoning Designation:** TBD (confirm against Waltham zoning map)
-- **Lot Size:** 15.37 acres
-- **Identified Intent Trigger:** Waltham building permit P202641296, filed 2026-03-04, for a
-  commercial lab renovation — selective demolition of an existing office fit-out, conversion
-  to a lab suite, and a poured concrete pad for dunnage — valuation $3,250,000. The dunnage
-  pad indicates heavy lab mechanical equipment. No recorded leases or financing in the
-  trailing-18-month registry window.
-- **Signal Recency:** most recent trigger dated 2026-03-04
-- **Actionability Window:** hypothesis — office-to-lab repositioning to capture higher lab
-  rents; re-tenanting in progress.
 - **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 - **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 
@@ -156,8 +95,10 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   2025-12-31 by confirmatory deed (bk85075/539) from a second family trust. A blanket
   portfolio mortgage from Ally Bank recorded 2026-02-06 (bk85206/84 — also encumbering the
   added parcel and a Main Street property) refinanced the prior debt, discharged three days
-  later. Assembly complete, portfolio financing in place, both buildings now being cleared.
-- **Signal Recency:** most recent trigger dated 2026-03-25
+  later. Assembly complete, portfolio financing in place, both buildings now being cleared. A
+  further demolition permit for the adjoining 22 Bear Hill Rd parcel (same owner) issued
+  2026-07-24 reinforces rather than supersedes this thesis.
+- **Signal Recency:** most recent trigger dated 2026-07-24 (freshness re-checked 2026-09-12)
 - **Actionability Window:** hypothesis — near-term JV capital, forward-purchase, or land sale
   as the site moves from assembly to entitlement.
 - **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
@@ -180,29 +121,10 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   (Declaration of Trust recorded 1997; most recent trustee succession 2019); no recorded
   leases or financing in the trailing-18-month registry window.
 - **Signal Recency:** most recent trigger dated 2026-01-16
-- **Actionability Window:** hypothesis — a long-held trust asset with a freshly enlarged anchor
-  tenancy; trustee-succession ownership of this vintage can precede an estate- or
-  liquidity-driven disposition on the strengthened rent roll.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
-### INDEX ENTRY: BOS-128-WAL-009
-
-- **Asset Categorization:** Low-Rise Flex / R&D (single-tenant)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (Bear Hill Road frontage)
-- **Calculated Footprint:** ~32,506 SQFT (MassGIS `BLD_AREA`)
-- **Zoning Designation:** COMMERCIAL
-- **Lot Size:** 1.60 acres
-- **Identified Intent Trigger:** Waltham building permit P202641233, filed 2026-02-12, to
-  convert an existing office in Unit #1 into a server room for a specialty-pharmacy tenant,
-  valuation $100,000. Middlesex South shows a new mortgage from Beacon Bank & Trust recorded
-  2026-02-23 (bk85256/295) on an asset the owner has held since 2016 (bk67847/06,
-  $14,000,000) — a refinance or cash-out.
-- **Signal Recency:** most recent trigger dated 2026-02-23
-- **Actionability Window:** hypothesis — fresh debt on a long-held single-tenant asset often
-  precedes a sale or recapitalization.
+- **Actionability Window:** hypothesis — the tenant expansion itself is routine asset management
+  and not a signal on its own; the actionable event is the 2019 trustee succession on this
+  long-held legacy trust, which can precede an estate- or liquidity-driven disposition
+  independent of current leasing activity.
 - **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 - **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 
@@ -249,5 +171,16 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Open items:**
   2. Six `TBD` zoning designations to confirm against the Waltham zoning map.
   3. LinkedIn cross-reference of the named managers (business capacity) not yet done.
-  4. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
+  4. WAL-002, WAL-004, WAL-005 (all Boston Properties/BXP-tied) pulled 2026-09-12 —
+     institutional-ownership review found no thesis beyond routine BXP lease-up/fit-out
+     activity by a well-capitalized REIT owner, not a distress or disposition signal.
+  5. WAL-009 pulled 2026-09-12 (negative check: whole building already actively marketed for
+     lease via Newmark/LoopNet/Showcase.com — not an off-market signal).
+  6. Index is 6 of 10; not yet replenished with new leads.
+  7. Freshness re-check done 2026-09-12 on all 6 remaining leads — all triggers still current.
+     WAL-007's trigger date updated (a newer, reinforcing demolition permit found). WAL-006:
+     press ties the owner to Phase 3 Real Estate Partners / Bain Capital Real Estate rather than
+     IQHQ as recorded — flagged in `data/leads.csv`, needs a SOC/registry follow-up before the
+     next refresh (doesn't change the absentee-institutional framing either way).
+  8. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
      chain added) is being regenerated in the Cowork thread; swap it in when ready.
