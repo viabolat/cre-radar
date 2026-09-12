@@ -9,11 +9,11 @@ Dates are ISO `YYYY-MM-DD`. Leave a cell empty only where the column notes allow
 
 | Column | Required | Allowed values / format | Notes |
 |---|---|---|---|
-| `lead_id` | yes | `BOS-128-WAL-###` | Sequential from `001`. Never reused, even for dropped leads. |
+| `lead_id` | yes | `BOS-128-WAL-###` (Waltham node) or `BOS-SEA-###` (Seaport / South Boston Waterfront node) | Sequential from `001`, **per prefix** — each node has its own counter. Never reused, even for dropped leads. |
 | `status` | yes | `identified` \| `signal-found` \| `entity-resolved` \| `index-ready` \| `dropped` | Advances in order. `dropped` is terminal. |
-| `site_address` | yes | `123 Example St, Waltham, MA 02451` | As shown in MassMapper / assessor. |
-| `municipality` | yes | `Waltham` | Fixed for this phase. |
-| `apn_parcel_id` | yes | assessor parcel ID string | From the MassMapper parcel popup. |
+| `site_address` | yes | `123 Example St, Waltham, MA 02451` | As shown in MassMapper / assessor (Waltham) or the Boston Tax Parcel Viewer / Assessing Dept (Boston). |
+| `municipality` | yes | `Waltham` \| `Boston` | One node per prefix currently active; add here if a third node opens. |
+| `apn_parcel_id` | yes | assessor parcel ID string | From the MassMapper parcel popup (Waltham) or the Boston Tax Parcel Viewer parcel popup (Boston). |
 | `assessor_owner_name` | yes | free text | Usually an LLC. Verbatim from the record. |
 | `asset_class` | yes | `industrial-logistics` \| `flex-rd` | `flex-rd` = low-rise R&D / lab-convertible. |
 | `est_footprint_sqft` | no | integer | Gross building area (MassGIS `BLD_AREA`) or, where CAMA has not caught up with a new build, the GSF stated on the permit. Empty if neither is available yet. |
@@ -34,7 +34,7 @@ Dates are ISO `YYYY-MM-DD`. Leave a cell empty only where the column notes allow
 | `signal_id` | yes | `SIG-###` | Sequential. |
 | `lead_id` | yes | matching `leads.lead_id` | |
 | `signal_type` | yes | see list below | One value per row. |
-| `source` | yes | `waltham-viewpoint` \| `masslandrecords-middlesex-south` | `waltham-viewpoint` covers the city's published permit reports (ViewPoint-backed). Add new sources here if the phase expands. |
+| `source` | yes | `waltham-viewpoint` \| `masslandrecords-middlesex-south` \| `boston-permit-finder` \| `masslandrecords-suffolk` | `waltham-viewpoint` covers the city's published permit reports (ViewPoint-backed). `boston-permit-finder` = permitfinder.boston.gov (Boston node). `masslandrecords-suffolk` = masslandrecords.com/Suffolk (Boston node, parallel to the Middlesex South source). Add new sources here if the phase expands further. |
 | `source_ref` | yes | permit number, or `book/page`, or document number | **Never blank.** This is what lets a broker re-pull the record. |
 | `source_url` | yes | full URL to the record or its search result | **Never blank.** |
 | `date_recorded` | yes | `YYYY-MM-DD` | Date the permit/document was filed or recorded. |
