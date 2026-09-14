@@ -1,7 +1,8 @@
 # GREATER BOSTON COMMERCIAL INTENT INDEX
 ## Submarket: Route 128 — Waltham node (Industrial & Flex)
 
-Status: **10 of 10 assets index-ready.** Permit intent-signals and asset facts are verified
+Status: **6 of 10 assets index-ready** (BOS-128-WAL-002, -004, -005, -009 pulled 2026-09-12 — see
+`data/leads.csv` and the Verification notes below). Permit intent-signals and asset facts are verified
 against source records; owner entities are resolved at the MA Secretary of the Commonwealth
 (managers, principal office, most recent Annual Report on file), or — for the one trust-held
 asset — at the Registry of Deeds via the recorded Declaration of Trust and trustee instruments.
@@ -40,26 +41,6 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 
 ---
 
-### INDEX ENTRY: BOS-128-WAL-002
-
-- **Asset Categorization:** Flex / Suburban R&D Facility (large multi-tenant office/lab)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (Third Avenue frontage)
-- **Calculated Footprint:** ~400,000–450,000 SF
-- **Zoning Designation:** Commercial
-- **Lot Size:** 5–10 acres
-- **Identified Intent Trigger:** Two Waltham building permits filed Q1 2026 — one for a
-  commercial lab renovation on levels 2 and 3 (valuation in the $2.5–5M range), and one for a
-  pop-up clean room (valuation not published). Two notices of lease recorded at Middlesex
-  South in the trailing 12 months, to two separate life-sciences tenants (Q4 2025 and Q1
-  2026); the more recent lease aligns with the level 2–3 permit.
-- **Signal Recency:** most recent trigger dated Q1 2026
-- **Actionability Window:** hypothesis — multi-tenant lab lease-up largely complete; a
-  recapitalization candidate on the strengthened rent roll.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
 ### INDEX ENTRY: BOS-128-WAL-003
 
 - **Asset Categorization:** Flex / Suburban R&D Facility (campus building, phased fit-out)
@@ -75,46 +56,6 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Signal Recency:** most recent trigger dated Q1 2026
 - **Actionability Window:** hypothesis — phased multi-tenant lease-up in progress; a landlord
   potentially open to a partial-interest or recapitalization conversation.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
-### INDEX ENTRY: BOS-128-WAL-004
-
-- **Asset Categorization:** Flex / Suburban R&D Facility (large campus, mixed re-tenanting)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (Trapelo Road frontage)
-- **Calculated Footprint:** not yet published in assessor CAMA
-- **Zoning Designation:** LIM COMM
-- **Lot Size:** 30–40 acres
-- **Identified Intent Trigger:** Two Waltham permits, both filed Q1 2026 — one to renovate
-  part of level 2 into an ambulatory surgery center (valuation in the $10–20M range), and one
-  to demolish first-floor systems back to white-box (valuation in the $100K–500K range). Two
-  notices of lease recorded at Middlesex South — one to a healthcare-services tenant (Q4 2025,
-  aligning with the surgery-center permit) and one to a technology-sector tenant (Q2 2026).
-- **Signal Recency:** most recent trigger dated Q2 2026
-- **Actionability Window:** hypothesis — active re-tenanting adding two credit tenants;
-  a value-add asset nearing stabilization.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
-### INDEX ENTRY: BOS-128-WAL-005
-
-- **Asset Categorization:** Flex / Suburban R&D Facility (office being repositioned to lab)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (West Street frontage)
-- **Calculated Footprint:** ~250,000–300,000 SF
-- **Zoning Designation:** Commercial
-- **Lot Size:** 15–20 acres
-- **Identified Intent Trigger:** A Waltham building permit filed Q1 2026 for a commercial lab
-  renovation — selective demolition of an existing office fit-out, conversion to a lab suite,
-  and a poured concrete pad for dunnage — valuation in the $2.5–5M range. The dunnage pad
-  indicates heavy lab mechanical equipment. No recorded leases or financing in the
-  trailing-18-month registry window.
-- **Signal Recency:** most recent trigger dated Q1 2026
-- **Actionability Window:** hypothesis — office-to-lab repositioning to capture higher lab
-  rents; re-tenanting in progress.
 - **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 - **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 
@@ -158,8 +99,10 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   parcel was added in Q4 2025 by confirmatory deed from a second family trust. A blanket
   portfolio mortgage for up to $10–15M was recorded in Q1 2026 (also encumbering the added
   parcel and another property) refinancing the prior debt, discharged three days later.
-  Assembly complete, portfolio financing in place, both buildings now being cleared.
-- **Signal Recency:** most recent trigger dated Q1 2026
+  Assembly complete, portfolio financing in place, both buildings now being cleared. A further
+  demolition permit for the adjoining companion parcel (same owner) was filed in Q3 2026,
+  reinforcing rather than superseding this thesis.
+- **Signal Recency:** most recent trigger dated Q3 2026 (freshness re-checked Q3 2026)
 - **Actionability Window:** hypothesis — near-term JV capital, forward-purchase, or land sale
   as the site moves from assembly to entitlement.
 - **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
@@ -182,29 +125,10 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   long-standing private trust (Declaration of Trust recorded 1997; most recent trustee
   succession 2019); no recorded leases or financing in the trailing-18-month registry window.
 - **Signal Recency:** most recent trigger dated Q1 2026
-- **Actionability Window:** hypothesis — a long-held trust asset with a freshly enlarged anchor
-  tenancy; trustee-succession ownership of this vintage can precede an estate- or
-  liquidity-driven disposition on the strengthened rent roll.
-- **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-- **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
-
----
-
-### INDEX ENTRY: BOS-128-WAL-009
-
-- **Asset Categorization:** Low-Rise Flex / R&D (single-tenant)
-- **Submarket Geography:** Route 128 Corridor — Waltham node (Bear Hill Road frontage)
-- **Calculated Footprint:** ~30,000–40,000 SF
-- **Zoning Designation:** COMMERCIAL
-- **Lot Size:** 1–2 acres
-- **Identified Intent Trigger:** A Waltham building permit filed Q1 2026 to convert an
-  existing office into a server room for a specialty-pharmacy tenant, valuation under $100K.
-  Middlesex South records an amended-and-restated $5–7M mortgage recorded Q1 2026 on an
-  asset the owner has held since 2016 (acquired for $10–15M) — confirmed 2026-09-14 to be
-  the same lender relationship dating to 2021 carried forward and upsized, not a new lender.
-- **Signal Recency:** most recent trigger dated Q1 2026
-- **Actionability Window:** hypothesis — fresh debt on a long-held single-tenant asset often
-  precedes a sale or recapitalization.
+- **Actionability Window:** hypothesis — the tenant expansion itself is routine asset management
+  and not a signal on its own; the actionable event is the 2019 trustee succession on this
+  long-held legacy trust, which can precede an estate- or liquidity-driven disposition
+  independent of current leasing activity.
 - **True Owner Entity:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 - **Decision-Maker Contact Infrastructure:** [LOCKED — SYNDICATED DATA LICENSE REQUIRED]
 
@@ -268,7 +192,7 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   LIM COMM) was wrong for 4 of 5 - correctly left as `TBD` rather than written in on
   inference.
 - **Open items:**
-  3. LinkedIn cross-reference done 2026-09-14 (see notes in `data/leads.csv`): confirmed
+  1. LinkedIn cross-reference done 2026-09-14 (see notes in `data/leads.csv`): confirmed
      for Gottlieb/Hill (WAL-003/010, Hobbs Brook) and Provost (WAL-008, BXP); not found
      for Fox/Gerrity (WAL-006). Parsekian/Patel (WAL-009) discrepancy (LinkedIn shows Azad
      Legacy Partners, SOC shows KHS Management) - resolved: a press-reported Parsada
@@ -276,5 +200,16 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
      file, so KHS Management is a real, current vehicle for this asset (residual gap: no
      public source directly names Parsekian/Patel as KHS's principals - likely their
      deal-specific JV name alongside the public Azad Legacy Partners platform, not confirmed).
-  4. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
+  2. WAL-002, WAL-004, WAL-005 (all Boston Properties/BXP-tied) pulled 2026-09-12 —
+     institutional-ownership review found no thesis beyond routine BXP lease-up/fit-out
+     activity by a well-capitalized REIT owner, not a distress or disposition signal.
+  3. WAL-009 pulled 2026-09-12 (negative check: whole building already actively marketed for
+     lease via Newmark/LoopNet/Showcase.com — not an off-market signal).
+  4. Index is 6 of 10; not yet replenished with new leads.
+  5. Freshness re-check done 2026-09-12 on all 6 remaining leads — all triggers still current.
+     WAL-007's trigger date updated (a newer, reinforcing demolition permit found). WAL-006:
+     press ties the owner to Phase 3 Real Estate Partners / Bain Capital Real Estate rather than
+     IQHQ as recorded — flagged in `data/leads.csv`, needs a SOC/registry follow-up before the
+     next refresh (doesn't change the absentee-institutional framing either way).
+  6. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
      chain added) is being regenerated in the Cowork thread; swap it in when ready.
