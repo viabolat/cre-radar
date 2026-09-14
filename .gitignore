@@ -17,8 +17,3 @@ data/evidence/*
 # OS / editor cruft
 .DS_Store
 *.swp
-
-# Independently git-cloned tool repos living inside this working tree —
-# never track these as gitlinks from cre_radar's own history.
-/massrecords-api/
-/cre_sop/
