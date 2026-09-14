@@ -26,7 +26,7 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Asset Categorization:** Flex / Suburban R&D Facility (multi-story sciences building)
 - **Submarket Geography:** Route 128 Corridor — Waltham node (Fifth Avenue frontage, Prospect Hill)
 - **Calculated Footprint:** ~75,000–100,000 SF (GSF range per permit; 2023 build, not yet in assessor CAMA)
-- **Zoning Designation:** TBD (confirm against Waltham zoning map)
+- **Zoning Designation:** Commercial
 - **Lot Size:** 2–3 acres
 - **Identified Intent Trigger:** A Waltham building permit filed Q1 2026 for a commercial lab
   renovation — 5th- and 6th-floor office/lab tenant fit-out — valuation in the $15–20M range.
@@ -45,7 +45,7 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Asset Categorization:** Flex / Suburban R&D Facility (large multi-tenant office/lab)
 - **Submarket Geography:** Route 128 Corridor — Waltham node (Third Avenue frontage)
 - **Calculated Footprint:** ~400,000–450,000 SF
-- **Zoning Designation:** TBD (confirm against Waltham zoning map)
+- **Zoning Designation:** Commercial
 - **Lot Size:** 5–10 acres
 - **Identified Intent Trigger:** Two Waltham building permits filed Q1 2026 — one for a
   commercial lab renovation on levels 2 and 3 (valuation in the $2.5–5M range), and one for a
@@ -65,7 +65,7 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Asset Categorization:** Flex / Suburban R&D Facility (campus building, phased fit-out)
 - **Submarket Geography:** Route 128 Corridor — Waltham node (Wyman Street frontage)
 - **Calculated Footprint:** ~500,000–600,000 SF
-- **Zoning Designation:** TBD (confirm against Waltham zoning map)
+- **Zoning Designation:** Limited Commercial
 - **Lot Size:** 10–15 acres
 - **Identified Intent Trigger:** Two Waltham permits filed Q1 2026 — a Phase 1 tenant fit-out
   of roughly 19,000 SF of office space (level 1 south wing, valuation in the $2.5–5M range),
@@ -105,7 +105,7 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Asset Categorization:** Flex / Suburban R&D Facility (office being repositioned to lab)
 - **Submarket Geography:** Route 128 Corridor — Waltham node (West Street frontage)
 - **Calculated Footprint:** ~250,000–300,000 SF
-- **Zoning Designation:** TBD (confirm against Waltham zoning map)
+- **Zoning Designation:** Commercial
 - **Lot Size:** 15–20 acres
 - **Identified Intent Trigger:** A Waltham building permit filed Q1 2026 for a commercial lab
   renovation — selective demolition of an existing office fit-out, conversion to a lab suite,
@@ -125,13 +125,15 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Asset Categorization:** Flex / Suburban R&D Facility (single-building lab)
 - **Submarket Geography:** Route 128 Corridor — Waltham node (Hickory Drive frontage)
 - **Calculated Footprint:** ~100,000–125,000 SF
-- **Zoning Designation:** TBD (confirm against Waltham zoning map)
+- **Zoning Designation:** Commercial
 - **Lot Size:** 3–4 acres
 - **Identified Intent Trigger:** A Waltham building permit filed Q1 2026 for a commercial lab
   renovation — third-floor interior renovation of existing bio space — valuation in the
-  $500K–1M range. A recorded agreement at Middlesex South in Q2 2026 names a private lender
-  alongside the owner and the lab tenant, consistent with tenant-driven financing (the
-  instrument itself was not reviewed). Registry records show the asset was acquired in Q2 2021
+  $500K–1M range. A recorded instrument at Middlesex South in Q2 2026, confirmed 2026-09-14,
+  is a Subordination, Non-Disturbance and Attornment Agreement subordinating the lab tenant's
+  new (early-2026) lease to the owner's existing 2021 acquisition-era mortgage — this is
+  lender paperwork protecting an already-signed lab lease, not new tenant-driven financing as
+  first guessed from the index alone. Registry records show the asset was acquired in Q2 2021
   for $50–55M; the owner's principal office is out of state.
 - **Signal Recency:** most recent trigger dated Q2 2026
 - **Actionability Window:** hypothesis — absentee institutional owner roughly five years into
@@ -154,9 +156,9 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   multi-parcel assembly by the current owner: the lead parcel, with an adjoining lot, was
   acquired in Q2 2023 for $5–10M by quitclaim deed in an estate disposition; the contiguous
   parcel was added in Q4 2025 by confirmatory deed from a second family trust. A blanket
-  portfolio mortgage was recorded in Q1 2026 (also encumbering the added parcel and another
-  property) refinancing the prior debt, discharged three days later. Assembly complete,
-  portfolio financing in place, both buildings now being cleared.
+  portfolio mortgage for up to $10–15M was recorded in Q1 2026 (also encumbering the added
+  parcel and another property) refinancing the prior debt, discharged three days later.
+  Assembly complete, portfolio financing in place, both buildings now being cleared.
 - **Signal Recency:** most recent trigger dated Q1 2026
 - **Actionability Window:** hypothesis — near-term JV capital, forward-purchase, or land sale
   as the site moves from assembly to entitlement.
@@ -197,8 +199,9 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
 - **Lot Size:** 1–2 acres
 - **Identified Intent Trigger:** A Waltham building permit filed Q1 2026 to convert an
   existing office into a server room for a specialty-pharmacy tenant, valuation under $100K.
-  Middlesex South shows a new mortgage recorded Q1 2026 on an asset the owner has held since
-  2016 (acquired for $10–15M) — a refinance or cash-out.
+  Middlesex South records an amended-and-restated $5–7M mortgage recorded Q1 2026 on an
+  asset the owner has held since 2016 (acquired for $10–15M) — confirmed 2026-09-14 to be
+  the same lender relationship dating to 2021 carried forward and upsized, not a new lender.
 - **Signal Recency:** most recent trigger dated Q1 2026
 - **Actionability Window:** hypothesis — fresh debt on a long-held single-tenant asset often
   precedes a sale or recapitalization.
@@ -245,13 +248,33 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
   only this deliverable was generalized.
 - **Hard limitation — not a follow-up task:**
   1. Middlesex South document images generally cannot be retrieved remotely — the registry's
-     image viewer fails to render under remote/automated access (confirmed across two sessions;
-     the popup-viewer toggle resets the search). Individual images can still be obtained one at
-     a time via a records request (mail/phone/in person; printing and download are free). Lease
-     terms/expiry (WAL-002, WAL-004) and mortgage amounts (WAL-006, WAL-007 Ally, WAL-009
-     Beacon) remain unconfirmed; book/page is recorded for each in `data/signals.csv`.
+     image viewer fails to render under remote/automated access (confirmed across three
+     sessions, most recently 2026-09-14). Individual images can still be obtained one at
+     a time via a records request (mail/phone/in person; printing and download are free).
+     **Update 2026-09-14:** lease terms for WAL-002 and WAL-004 were instead sourced from the
+     public tenants' own SEC filings/press releases (Akebia, Madrigal, Boston Dynamics are all
+     public or press-covered) - see `data/signals.csv` SIG-015/016/017 - so those two are no
+     longer blocked. **WAL-006, WAL-007 and WAL-009's documents were all retrieved directly**
+     via the project's local `massrecords-api` capture tool (Tampermonkey + FastAPI; see
+     `runbook.md` Status log 2026-09-14). WAL-006 is confirmed to be an SNDA, not a new loan -
+     no dollar amount applies, so it's fully closed. WAL-007 is a Mortgage securing a loan not
+     to exceed $14.1M from Ally Bank. WAL-009 is a $6M Amended and Restated Mortgage from
+     Beacon Bank & Trust, restating a 2021 mortgage rather than a new lender. **All financing
+     items across all 10 leads are now confirmed - no remaining registry-document gaps.**
+- **Closed 2026-09-14:** Zoning for WAL-001, 002, 003, 005, 006 confirmed via the
+  Waltham MapGeo Zoning theme (walthamma.mapgeo.io) in a real browser session: WAL-001,
+  002, 005, 006 = Commercial (C); WAL-003 = Limited Commercial (LC), per Waltham Zoning
+  Ordinance orders #31023 / #29874. The corridor-pattern guess floated earlier (all five
+  LIM COMM) was wrong for 4 of 5 - correctly left as `TBD` rather than written in on
+  inference.
 - **Open items:**
-  2. Six `TBD` zoning designations to confirm against the Waltham zoning map.
-  3. LinkedIn cross-reference of the named managers (business capacity) not yet done.
+  3. LinkedIn cross-reference done 2026-09-14 (see notes in `data/leads.csv`): confirmed
+     for Gottlieb/Hill (WAL-003/010, Hobbs Brook) and Provost (WAL-008, BXP); not found
+     for Fox/Gerrity (WAL-006). Parsekian/Patel (WAL-009) discrepancy (LinkedIn shows Azad
+     Legacy Partners, SOC shows KHS Management) - resolved: a press-reported Parsada
+     Ventures/KHS Management JV bought this exact property for $14M, matching the deed on
+     file, so KHS Management is a real, current vehicle for this asset (residual gap: no
+     public source directly names Parsekian/Patel as KHS's principals - likely their
+     deal-specific JV name alongside the public Azad Legacy Partners platform, not confirmed).
   4. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
      chain added) is being regenerated in the Cowork thread; swap it in when ready.
