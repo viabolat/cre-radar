@@ -4,8 +4,8 @@
 // @version      2.1
 // @description  Send the scanned document page image(s) shown in the ImageViewerEx.aspx popup to your local capture API — generalized to every registry district hosted on masslandrecords.com, not just Suffolk
 // @match        https://www.masslandrecords.com/*/D/ImageViewerEx.aspx*
-// @downloadURL  https://raw.githubusercontent.com/viabolat/massrecords-api/main/capture-image.user.js
-// @updateURL    https://raw.githubusercontent.com/viabolat/massrecords-api/main/capture-image.user.js
+// @downloadURL  https://raw.githubusercontent.com/viabolat/cre-radar/main/massrecords-api/capture-image.user.js
+// @updateURL    https://raw.githubusercontent.com/viabolat/cre-radar/main/massrecords-api/capture-image.user.js
 // ==/UserScript==
 
 /*

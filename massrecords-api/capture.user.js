@@ -4,8 +4,8 @@
 // @version      2.0
 // @description  Send the current masslandrecords.com page to your local capture API — generalized to every registry district hosted on masslandrecords.com, not just Suffolk
 // @match        https://www.masslandrecords.com/*/D/Default.aspx*
-// @downloadURL  https://raw.githubusercontent.com/viabolat/massrecords-api/main/capture.user.js
-// @updateURL    https://raw.githubusercontent.com/viabolat/massrecords-api/main/capture.user.js
+// @downloadURL  https://raw.githubusercontent.com/viabolat/cre-radar/main/massrecords-api/capture.user.js
+// @updateURL    https://raw.githubusercontent.com/viabolat/cre-radar/main/massrecords-api/capture.user.js
 // ==/UserScript==
 
 /*
