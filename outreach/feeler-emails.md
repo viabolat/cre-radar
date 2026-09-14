@@ -22,6 +22,26 @@ two things being sold, so neither can appear before the stage that unlocks
 it. See runbook.md Status log 2026-09-14 "Outreach funnel design decided"
 for the full reasoning and what NOT to change without re-deciding.
 
+**Revision (2026-09-14, v2 — credibility pass):** two problems fixed:
+  - The prose-only pitch had no hard numbers, so it was indistinguishable
+    from a cold "I built a scraper" email. Each feeler below now carries
+    exactly ONE quantified proof-point (footprint band or dollar band)
+    pulled straight from that lead's entry in
+    deliverables/blinded-index-BOS-128.md — same bucket width the master
+    index already uses (e.g. "$10-15M", "450,000-500,000 SF"), never
+    tightened for the email. This is data an experienced CRE agent already
+    can't narrow to a parcel on its own (it's what stage 2 discloses
+    anyway), but it's concrete enough to signal real underlying data.
+    Only one metric per email, not the full entry — the rest of the sheet
+    (zoning, lot size, exact frontage, full signal timeline) stays a
+    reason to reply, not something given away free.
+  - The old CTA ("reply and I'll send it") named no deliverable. Every
+    email below now closes with: "Reply and I'll send the full asset
+    metrics and signal timeline for this one — address and ownership stay
+    locked until there's a fit." — concrete about what they get, explicit
+    that identity is still gated (sets correct funnel expectations up
+    front instead of leaving it to be discovered on reply).
+
 Fill in [Your Name] / contact before sending. Log date_sent + channel +
 variant ("feeler-v1") in outreach/tracker.csv the moment one actually goes
 out — same rule as draft-emails.md.
@@ -34,22 +54,21 @@ out — same rule as draft-emails.md.
 **To:** zm@kadimare.com
 **Subject:** A Route 128 land assembly that just started clearing
 
-> Zev,
->
-> I track recorded title activity, permits, and financing across the Route 128 corridor to
-> catch assets moving before they're formally listed. One I'm watching in Waltham right now:
-> an owner assembled two adjoining parcels over the past few years, put a portfolio-level
-> refinance in place covering the site earlier this year, and just pulled demolition permits
-> on both existing buildings — all inside the same quarter. Assembly, then financing, then
-> demo, in that order, usually means entitlement or a near-term capital event, not routine
-> upkeep.
->
-> I haven't seen this circulating. If it's useful, reply and I'll send over the underlying
-> site metrics and signal timeline — ownership details are handled separately once there's a
-> fit.
->
-> Ahmet Bolat
-> ahmet@viabolat.com
+Zev,
+
+I track recorded title activity, permits, and financing across the Route 128 corridor to
+catch assets moving before they're formally listed. One I'm watching in Waltham right now:
+an owner assembled two adjoining parcels over the past few years, then recorded a
+portfolio-level refinance in the $10-15M range covering the site earlier this year, and
+just pulled demolition permits on both existing buildings — all inside the same quarter.
+Assembly, then financing, then demo, in that order, usually means entitlement or a
+near-term capital event, not routine upkeep.
+
+I haven't seen this circulating. Reply and I'll send the full asset metrics and signal
+timeline for this one — address and ownership stay locked until there's a fit.
+
+Ahmet Bolat
+ahmet@viabolat.com
 
 ---
 
@@ -58,22 +77,23 @@ out — same rule as draft-emails.md.
 **To:** gholmes@rwholmes.com
 **Subject:** Trust-held Waltham asset, fresh six-floor lease
 
-> Garry,
->
-> I track permit activity, financing, and ownership-structure signals across Route
-> 128/Waltham. One asset stood out: a large flex/office building held in the same private
-> family trust since the late '90s, with a trustee succession a few years back. Its
-> long-standing anchor tenant just filed for a six-floor build-out — full partition rework,
-> MEP and fire-alarm systems across the majority of the building — the kind of fit-out that
-> signals a lease extension or major expansion, not a tenant leaving.
->
-> A trust of that vintage with a freshly strengthened rent roll is often closer to a
-> liquidity event than the building's day-to-day activity would suggest.
->
-> Happy to share the underlying signal timeline if it's useful — just reply.
->
-> Ahmet Bolat
-> ahmet@viabolat.com
+Garry,
+
+I track permit activity, financing, and ownership-structure signals across Route
+128/Waltham. One asset stood out: a large flex/office building — roughly 450,000-500,000
+SF — held in the same private family trust since the late '90s, with a trustee succession a
+few years back. Its long-standing anchor tenant just filed for a six-floor build-out — full
+partition rework, MEP and fire-alarm systems across the majority of the building — the kind
+of fit-out that signals a lease extension or major expansion, not a tenant leaving.
+
+A trust of that vintage with a freshly strengthened rent roll is often closer to a
+liquidity event than the building's day-to-day activity would suggest.
+
+Reply and I'll send the full asset metrics and signal timeline for this one — address and
+ownership stay locked until there's a fit.
+
+Ahmet Bolat
+ahmet@viabolat.com
 
 ---
 
@@ -82,22 +102,22 @@ out — same rule as draft-emails.md.
 **To:** ohunnewell@nordblom.com
 **Subject:** A Route 128 flex tenant giving space back
 
-> Og,
->
-> I track leasing and permit signals for value-add flex/R&D opportunities on Route 128. One
-> I'm watching: a tenant at a multi-tenant Waltham flex building just filed to demolish its
-> data center and convert the space to storage — a clear contraction, not a fit-out. No
-> corresponding new lease has hit the registry yet, which usually means the space is about to
-> go back to the landlord vacant.
->
-> The ownership group behind this asset also controls a larger campus property nearby in the
-> same corridor, so there may be a broader portfolio angle here, not just a single building.
->
-> If that's the kind of value-add situation worth tracking, reply and I'll send the underlying
-> signal timeline.
->
-> Ahmet Bolat
-> ahmet@viabolat.com
+Og,
+
+I track leasing and permit signals for value-add flex/R&D opportunities on Route 128. One
+I'm watching: a tenant at a multi-tenant Waltham flex building — roughly 150,000-200,000 SF
+— just filed to demolish its data center and convert the space to storage — a clear
+contraction, not a fit-out. No corresponding new lease has hit the registry yet, which
+usually means the space is about to go back to the landlord vacant.
+
+The ownership group behind this asset also controls a larger campus property nearby in the
+same corridor, so there may be a broader portfolio angle here, not just a single building.
+
+Reply and I'll send the full asset metrics and signal timeline for this one — address and
+ownership stay locked until there's a fit.
+
+Ahmet Bolat
+ahmet@viabolat.com
 
 ---
 
@@ -106,20 +126,20 @@ out — same rule as draft-emails.md.
 **To:** acquisitions@berkeleypartners.com
 **Subject:** An institutionally-held Waltham lab nearing a disposition window
 
-> Team,
->
-> I track ownership-hold timing and lease/financing activity across Route 128 flex and lab
-> assets. One I'm watching: a single-building lab property acquired by an out-of-state
-> institutional owner about five years ago is now locking in a freshly-signed lab tenant —
-> the lender just recorded paperwork subordinating that new lease to the original
-> acquisition-era mortgage, which only happens once a lease is fully executed. A ~5-year hold
-> with a newly de-risked rent roll is a common setup for a disposition process to start.
->
-> Nothing's listed yet as far as I can tell. If that's a fit for your acquisitions pipeline,
-> reply and I'll send over the underlying metrics and signal timeline.
->
-> Ahmet Bolat
-> ahmet@viabolat.com
+Team,
+
+I track ownership-hold timing and lease/financing activity across Route 128 flex and lab
+assets. One I'm watching: a single-building lab property — acquired for $50-55M about five
+years ago by an out-of-state institutional owner — is now locking in a freshly-signed lab
+tenant: the lender just recorded paperwork subordinating that new lease to the original
+acquisition-era mortgage, which only happens once a lease is fully executed. A ~5-year hold
+with a newly de-risked rent roll is a common setup for a disposition process to start.
+
+Nothing's listed yet as far as I can tell. Reply and I'll send the full asset metrics and
+signal timeline for this one — address and ownership stay locked until there's a fit.
+
+Ahmet Bolat
+ahmet@viabolat.com
 
 ---
 
@@ -128,23 +148,23 @@ out — same rule as draft-emails.md.
 **To:** davidl@128cre.com
 **Subject:** A Route 128 campus adding two credit tenants at once
 
-> David,
->
-> I track permit and lease-recording activity across Route 128/95 flex and lab assets. One
-> large campus building in Waltham is mid re-tenanting: a permit filed this year converts part
-> of one floor into an ambulatory surgery center, and a separate permit strips another floor's
-> systems back to white-box for a fresh build-out. The registry shows two new leases landing
-> around the same window — one to a healthcare-services tenant, one to a technology-sector
-> tenant.
->
-> Two credit tenants signing within a couple quarters of each other on a large campus usually
-> means the landlord is actively stabilizing the asset, not just backfilling vacancy.
->
-> If that's useful for anything you're tracking on the leasing or investment side, reply and
-> I'll send the underlying signal timeline.
->
-> Ahmet Bolat
-> ahmet@viabolat.com
+David,
+
+I track permit and lease-recording activity across Route 128/95 flex and lab assets. One
+large campus building in Waltham is mid re-tenanting: a permit filed this year converts
+part of one floor into an ambulatory surgery center (valuation in the $10-20M range), and a
+separate permit strips another floor's systems back to white-box for a fresh build-out. The
+registry shows two new leases landing around the same window — one to a healthcare-services
+tenant, one to a technology-sector tenant.
+
+Two credit tenants signing within a couple quarters of each other on a large campus usually
+means the landlord is actively stabilizing the asset, not just backfilling vacancy.
+
+Reply and I'll send the full asset metrics and signal timeline for this one — address and
+ownership stay locked until there's a fit.
+
+Ahmet Bolat
+ahmet@viabolat.com
 
 ---
 
@@ -153,21 +173,22 @@ out — same rule as draft-emails.md.
 **To:** mmulvey@cresa.com
 **Subject:** Two life-sciences leases that haven't hit the market data yet
 
-> Mark,
->
-> I track permit filings and registry-recorded leases across Route 128/Waltham, mostly to
-> catch life-sciences leasing activity before it shows up in the standard market reporting
-> cycle. One multi-tenant lab building has quietly signed two separate life-sciences tenants
-> inside the past two quarters, each followed by its own lab build-out permit — one a
-> straightforward renovation, one for a pop-up clean room.
->
-> Given the annual report your team puts out on the corridor, this felt like exactly the kind
-> of pre-market signal worth flagging directly rather than waiting for it to surface elsewhere.
->
-> Happy to send the underlying signal timeline if useful — just reply.
->
-> Ahmet Bolat
-> ahmet@viabolat.com
+Mark,
+
+I track permit filings and registry-recorded leases across Route 128/Waltham, mostly to
+catch life-sciences leasing activity before it shows up in the standard market reporting
+cycle. One multi-tenant lab building — roughly 400,000-450,000 SF — has quietly signed two
+separate life-sciences tenants inside the past two quarters, each followed by its own lab
+build-out permit — one a straightforward renovation, one for a pop-up clean room.
+
+Given the annual report your team puts out on the corridor, this felt like exactly the kind
+of pre-market signal worth flagging directly rather than waiting for it to surface elsewhere.
+
+Reply and I'll send the full asset metrics and signal timeline for this one — address and
+ownership stay locked until there's a fit.
+
+Ahmet Bolat
+ahmet@viabolat.com
 
 ---
 
@@ -176,22 +197,22 @@ out — same rule as draft-emails.md.
 **To:** david@stubblebinecompany.com
 **Subject:** An office-to-lab conversion with a dunnage pad going in
 
-> David,
->
-> I track Waltham permit filings for signs of office space being converted to lab use before
-> it's obvious from the outside. One filing this year stood out: selective demolition of an
-> existing office fit-out, conversion to a lab suite, and — the detail that gives it away — a
-> poured concrete pad for dunnage, which only gets specified when heavy lab mechanical
-> equipment is going in.
->
-> That's a landlord committing real capital to reposition for lab rents, not a cosmetic
-> refresh.
->
-> If that's relevant to anything you're working on in the corridor, reply and I'll send over
-> the underlying site metrics and signal timeline.
->
-> Ahmet Bolat
-> ahmet@viabolat.com
+David,
+
+I track Waltham permit filings for signs of office space being converted to lab use before
+it's obvious from the outside. One filing this year stood out: selective demolition of an
+existing office fit-out, conversion to a lab suite, and — the detail that gives it away — a
+poured concrete pad for dunnage, which only gets specified when heavy lab mechanical
+equipment is going in. Permit valuation lands in the $2.5-5M range.
+
+That's a landlord committing real capital to reposition for lab rents, not a cosmetic
+refresh.
+
+Reply and I'll send the full asset metrics and signal timeline for this one — address and
+ownership stay locked until there's a fit.
+
+Ahmet Bolat
+ahmet@viabolat.com
 
 ---
 
@@ -201,7 +222,11 @@ stripped of anything that would let the recipient locate the parcel
 themselves — dates stay quarter-level, dollar figures stay at the index's
 existing bucket width or looser, no street name/permit number/deed
 reference. One lead per feeler, picked for whichever story is most
-specific-sounding without being identifying.)*
+specific-sounding without being identifying. Include exactly ONE bucketed
+proof-metric (footprint or dollar band, pulled verbatim from that lead's
+blinded-index entry — never a narrower band than the index uses) — enough
+to read as real data, not enough to hand over everything the reply is
+supposed to unlock.)*
 
 *(Leads not yet drafted: WAL-001, WAL-003, WAL-009 — WAL-009 was already
 used as the worked example in the Variant C drafts
