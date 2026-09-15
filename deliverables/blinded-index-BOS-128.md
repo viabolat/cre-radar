@@ -211,5 +211,13 @@ MA Secretary of the Commonwealth, Corporations Division (owner entities). Search
      press ties the owner to Phase 3 Real Estate Partners / Bain Capital Real Estate rather than
      IQHQ as recorded — flagged in `data/leads.csv`, needs a SOC/registry follow-up before the
      next refresh (doesn't change the absentee-institutional framing either way).
+     **Resolved 2026-09-15:** SOC principal-office address for the WAL-006 owner entity is an
+     exact match for Phase 3 Real Estate Partners, Inc. (San Diego life-sciences/industrial
+     developer); both signers (Fox, Gerrity) match named Phase 3 personnel. The earlier IQHQ
+     attribution was an unconfirmed name-pattern guess and is corrected to Phase 3 Real Estate
+     Partners as the confirmed sponsor. The Bain Capital Real Estate press mention is treated as
+     a capital-partner role alongside Phase 3, not a conflicting ownership claim — unconfirmed
+     but non-blocking; doesn't change the absentee-institutional framing. See `data/leads.csv`
+     for full detail.
   6. A refreshed diligence workbook (WAL-008 entity name corrected workbook-wide + trust
      chain added) is being regenerated in the Cowork thread; swap it in when ready.
