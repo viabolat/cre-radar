@@ -32,7 +32,10 @@ database. See **Districts** below for exactly which districts that covers.
 - `api.py` — FastAPI app: `POST /ingest` (page HTML + district → parsed
   records), `POST /ingest-image` (scanned document page + district → stored
   image, auto-linked to a record), `GET /records`, `GET /records/{id}`,
-  `GET /images`, `GET /images/{id}` (serves the file).
+  `GET /images`, `GET /images/{id}` (serves the file), `GET /health`. A
+  `POST /ingest` that parses zero rows dumps the raw HTML to
+  `debug_captures/<District>-<timestamp>.html` for offline diagnosis instead
+  of failing silently.
 - `capture.user.js` — Tampermonkey userscript, active on any
   `<District>/D/Default.aspx` on masslandrecords.com. Adds a "Send to Local
   API" button.
@@ -58,9 +61,12 @@ fire on that domain, wildcarded across every district path on it.
 
 ## Setup (any machine)
 
+This directory is tracked inside the `cre-radar` repo (absorbed from the former standalone
+`massrecords-api` repo). Clone `cre-radar` and run this from within it:
+
 ```bash
-git clone https://github.com/viabolat/massrecords-api.git
-cd massrecords-api
+git clone https://github.com/viabolat/cre-radar.git
+cd cre-radar/massrecords-api
 ./serve.sh
 ```
 
@@ -71,9 +77,10 @@ copy, and no data or credentials are shared between them.
 
 Install [Tampermonkey](https://www.tampermonkey.net/) in Chrome, then in its
 dashboard use **Utilities → Import from file** to load both `capture.user.js`
-and `capture-image.user.js` from the cloned repo (avoids copy/paste quote
+and `capture-image.user.js` from this directory (avoids copy/paste quote
 corruption). Each is scoped via `@match` to only inject on its own page, so
-they won't collide.
+they won't collide. There's no reload button in Tampermonkey's dashboard for
+an imported file — re-import after editing a script locally.
 
 ## Use
 
@@ -111,15 +118,15 @@ syncs between machines automatically.
 
 ## Known gaps
 
-- Column mapping in `parser.py` (`SEARCH_COLUMNS`) reflects the standard
-  Recorded Land Name Search grid. Other search types (Book Search, Property
-  Search, Plans, …) may render a different column set — verify against a
-  captured page before trusting the field mapping if you use those.
-- `SEARCH_COLUMNS` was only verified against a live Suffolk County page.
-  Other masslandrecords.com districts (Middlesex South, Worcester, Dukes)
-  are assumed to render the same grid layout but haven't individually been
-  spot-checked — verify against a captured page from each before trusting
-  the field mapping there too.
+- `parser.py` dispatches between two known grids by cell count:
+  `SEARCH_COLUMNS` (standard Recorded Land Name Search) and
+  `SEARCH_COLUMNS_BOOK_PAGE` (Book/Page Search). Other search types (Property
+  Search, Plans, …) may still render a different column set — verify against
+  a captured page before trusting the field mapping if you use those.
+- Both known grids were verified against live Suffolk County and Middlesex
+  South pages. Worcester and Dukes are assumed to render the same layouts but
+  haven't individually been spot-checked — verify against a captured page
+  from each before trusting the field mapping there too.
 - Detail-panel attachment is heuristic (attaches to the just-ingested row, or
   matches by book/page if only a detail panel was captured with no grid
   rows) — good enough for the click-through-then-capture workflow above, not

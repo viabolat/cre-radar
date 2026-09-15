@@ -40,7 +40,7 @@ Dates are ISO `YYYY-MM-DD`. Leave a cell empty only where the column notes allow
 | `date_recorded` | yes | `YYYY-MM-DD` | Date the permit/document was filed or recorded. |
 | `dollar_amount` | no | integer USD | Permit valuation or lien amount if stated. |
 | `summary` | yes | free text, 1–2 sentences | Factual paraphrase of the record only. No inference about intent beyond what the document says. |
-| `evidence_file` | yes | path under `data/evidence/<lead_id>/`, or a shared file under `data/evidence/_permits/` | Screenshot or downloaded PDF. Must exist and open. A single permit-report PDF that covers many leads lives once under `_permits/` and is cited by page number in `summary`. |
+| `evidence_file` | yes | path under `data/evidence/<lead_id>/`, or a shared file under `data/evidence/_permits/` or `data/evidence/_registry/` | Screenshot or downloaded PDF. Must exist and open. A single permit-report PDF that covers many leads lives once under `_permits/` and is cited by page number in `summary`; registry documents captured via `massrecords-api` (see that tool's README) and shared across leads live under `_registry/` the same way. |
 | `confidence` | yes | `high` \| `med` \| `low` | `high` = document is explicit and current; `low` = ambiguous or stale. A registry hit known only from the index (image not yet pulled) caps at `med`. |
 
 ### `signal_type` values
