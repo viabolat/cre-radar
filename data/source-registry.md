@@ -17,6 +17,19 @@ updated every time a source is touched. Template:
 
 ---
 
+### MassGIS — Massachusetts Property Tax Parcels FeatureServer (statewide)
+
+- **URL:** `https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_Property_Tax_Parcels/FeatureServer/0` — MassGIS's official ArcGIS-Online-hosted "Level 3" statewide assessors' parcel layer. Excludes Boston (processed separately by the city, per the item description); Boston uses its own `gisportal.boston.gov` Assessing FeatureServer instead (see `cre_sop/sop.md` Source #3).
+- **Access category:** open-api
+- **Stage(s) that use this source:** Stage 1
+- **What was tried:** direct unauthenticated `/query` GET requests (count, groupBy-stats, and paged feature fetch) from the working session
+- **What worked / what didn't:** works directly, no auth/VPN needed (unlike masslandrecords.com or SOC CorpSearch) — this is a genuinely open ArcGIS Online service, not a `state.ma.us`-hosted one. A same-named-looking internal mirror at `gisprpxy.itd.state.ma.us` (also surfaced by search) 502'd from this session — don't use it, use the `services1.arcgis.com` URL above instead. `LIKE`-based `WHERE` clauses (e.g. `USE_CODE NOT LIKE '1%'`) intermittently failed/timed out; an explicit `USE_CODE IN (...)` list against the town's actual distinct-code set (fetched first via `groupByFieldsForStatistics`) was reliable.
+- **Current recommended approach:** query `/query` with `where=CITY='<TOWN>'`, get the distinct `USE_CODE`/`USE_DESC` breakdown first via `groupByFieldsForStatistics`, then filter with an explicit `USE_CODE IN (...)` list per the query bound chosen for that run (see `01-parcel-discovery.md`'s open question). Key fields: `PROP_ID` (assessor parcel id, unique per town, no observed collisions), `TOWN_ID` (MassGIS's own canonical numeric municipality code — e.g. Revere = 248), `CITY`, `SITE_ADDR`, `USE_CODE`/`USE_DESC`, `OWNER1`, `TOTAL_VAL`, `FY`. `maxRecordCount` is 2000/request — paginate with `resultOffset` for town-wide unfiltered pulls.
+- **Open questions:** none currently for the statewide layer; Boston still needs its own separate FeatureServer (already documented in `cre_sop/sop.md`, not duplicated here).
+- **Date last verified:** 2026-09-15
+
+---
+
 ### masslandrecords.com — Suffolk / Middlesex South / Worcester / Dukes
 
 - **URL:** masslandrecords.com (per-district paths); successor/mirror

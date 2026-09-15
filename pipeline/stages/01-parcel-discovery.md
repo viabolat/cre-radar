@@ -23,6 +23,32 @@ residential LU codes) short of reintroducing a fixed asset class. Until
 decided, run this stage with a manually-chosen, documented bound per town
 rather than an unfiltered query.
 
+**Precedent (Revere, 2026-09-15):** a use-code-only bound (excluding 1xx
+residential and 9xx government/institutional) still left 675 parcels —
+workable as a discovery-stage pool, but too large to hand to Stage 2 as-is
+when that town's permit vendor is itself a full manual handoff (see Stage
+2's Citizenserve note): running Stage 2 unfiltered would just write ~675
+near-identical `needs-handoff` rows for zero new signal. Decision: tighten
+further at that point with a minimum assessed-value bound (`TOTAL_VAL`
+field) sized to leave a queue a human can actually work through by hand —
+$1M cut Revere to 257. Not promoted to a fixed rule here: whether this
+second bound belongs in Stage 1 (tighten before writing) or is better left
+as a documented post-hoc prune once Stage 2's vendor category is known
+(as done for Revere) is itself worth revisiting if this recurs for another
+manual-heavy-vendor town.
+
+## Known limitation — logged, not reversed
+
+The USE_CODE-9xx exclusion (government/institutional/charitable-exempt
+parcels — municipal, housing authority, church, state/federal government)
+applied as part of the query bound can rarely filter out a genuine
+disposal-event signal: a city or authority selling a surplus property is
+exactly the kind of dated, market-facing event Stage 7's Activity track
+looks for, and that owner will never appear in this pool. Accepted
+tradeoff, not worth reversing — the exclusion's purpose (no private owner
+to pitch, for the overwhelming majority of 9xx parcels) still holds; this
+is an acknowledged edge case, not a silent gap.
+
 ## Procedure
 
 1. Confirm the target town's masslandrecords.com district status in
