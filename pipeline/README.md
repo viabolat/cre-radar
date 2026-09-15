@@ -31,6 +31,14 @@ of restarting. See each CSV's header for the full column set, and
 `data/field-dictionary.md`-equivalent documentation to be added there if
 this schema stabilizes.
 
+`current_stage`: the furthest stage with any recorded output — **not** a
+claim that every earlier stage is `done`. A parcel run stage-by-stage in
+order will have both meanings coincide, but a parcel migrated from another
+source (e.g. a `cre_sop` run backfilled directly into Stages 4/6/7 while
+Stages 3/5 sit at `needs-handoff`) can have a `current_stage` higher than
+an earlier stage's completion. Always check each `stageN_status`
+individually rather than inferring completion from `current_stage` alone.
+
 `overall_status`: derived convenience field — `active | needs-handoff |
 blocked | dropped | pitchable`. Pitchable means `stage6_pass = yes`
 (negative check explicitly clear, not merely `stage6_status = done`, since
